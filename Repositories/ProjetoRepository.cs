@@ -14,6 +14,7 @@ public ProjetoRepository(ExoContext context)
 _context = context;
 }
 public List<Projeto> Listar()
+//pub
 {
 return _context.Projetos.ToList();
 }
